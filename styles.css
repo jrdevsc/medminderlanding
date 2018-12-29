@@ -152,7 +152,7 @@ header a{
 }
 
 .hero a.btn:hover{
-  background-color: #2213ff;
+  background-color: #607d8b;
   color: white;
 }
 
@@ -213,7 +213,7 @@ header a{
 }
 
 .signup form .btn:hover{
-  background-color: #2213ff;
+  background-color: #607d8b;
   color: white;
 }
 
@@ -275,13 +275,14 @@ footer p{
     font-size: 48px;
   }
   .hero h3{
-    font-size: 24px;
+    font-size: 20px;
   }
   .hero a.btn{
-    padding: 15px 40px;
+    padding: 15px 20px;
+    font-size: 15px;
   }
   header{
-    padding: 20px 50px;
+    padding: 20px 15px;
     flex-direction: column;
   }
   header h2{
@@ -289,10 +290,18 @@ footer p{
     font-size: 25px;
   }
   header li a{
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: bold;
   }
   section{
     padding: 50px 20px;
+  }
+  .signup form .btn{
+    font-size: 15px;
+    padding: 15px 20px;
+  }
+  .signup form input{
+    font-size: 15px;
   }
 }
 

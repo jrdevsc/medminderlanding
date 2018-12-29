@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>MedMinder</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,32 +10,34 @@
   <header>
     <h2><a href="#">MedMinder</a></h2>
     <nav>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Testimonials</a></li>
-      <li><a href="#">Sign Up</a></li>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#signup">Sign Up</a></li>
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero" id="hero">
     <div class="bkgImg" style="background-image: url(img/happyOldFolks.jpg)"></div>
     <div class="hero-content-area">
       <h1>MedMinder</h1>
-      <h3>Take control of your medicine...and your life!</h3>
+      <h3>Take control of your medicine and your life!</h3>
       <a href="#" class="btn">Sign Up Now!</a>
     </div>
   </section>
 
-  <section class="about">
+  <section class="about" id="about">
     <h3 class="title">About MedMinder</h3>
+    <hr>
     <p>MedMinder is the simple way you and your loved one can be sure to take meds on time, everyday. At MedMinder we do not sleep, your health and frequency of medicaion intake is of utmost importance to us.</p>
     <p>Using the latest in AI and blockchain technologies, we have created a 'set it and forget it' program to take the stress out of remembering to take and distribute medications!</p>
-    <hr>
+    <!-- <hr> -->
   </section>
 
-  <section class="features">
+  <section class="features" id="features">
     <h3 class="title">Features</h3>
+    <hr>
     <p>A feature rich program that allows you and your loved one the freedom of not having to worry about when to take medicaions.</p>
     <ul class="grid">
       <li>
@@ -62,8 +63,9 @@
     </ul>
   </section>
 
-  <section class="testimonials">
+  <section class="testimonials" id="testimonials">
     <h3 class="title">Testimonials</h3>
+    <hr>
     <p class="quote">I love MedMinder! Not only did I create it, I made it easy for anyone to use. Gone are the days of remembering to remind my family members to take their meds; it's all done for me!</p>
     <p class="author">~ Julian Rudolph</p>
     <p class="quote">I don't always remember to take my meds. My Grandson has to remind me almost daily. I wasn't sure what I was going to do when he had to leave for work. Now I know I can trust MedMinder to give me a call when it's time to take my meds. Three things in life are 'for sure': 1) Death,  2) Taxes, and 3) MedMinder</p>
@@ -72,10 +74,10 @@
     <p class="author">~ Kathy Rudolph</p>
   </section>
 
-  <section class="signup">
+  <section class="signup" id="signup">
     <h3 class="title">Sign Up Here!</h3>
-    <p>Signing up is simple. Enter your email below and we will email you a number to call...Yes, you can call us to set it up for you! Did you not believe us when we said it was easy??</p>
     <hr>
+    <p>Signing up is simple. Enter your email below and we will email you a number to call...Yes, you can call us to set it up for you! Did you not believe us when we said it was easy??</p>
     <form action="#">
       <input type="email" placeholder="Enter Email...">
       <a href="#" class="btn">Learn More</a>
